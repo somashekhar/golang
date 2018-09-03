@@ -1,5 +1,10 @@
 This file contains the concepts of function, libraries and packages
 
+  - Every go program is made up of packages.
+  - By convention, the package name is the same as the last element of the import path
+  - Program start running in package main.
+
+
 Function/method/sub-routine/procedure:
   - func definition
 	func function_name([parameter_list])[return_types]{
