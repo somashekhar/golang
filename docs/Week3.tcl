@@ -17,7 +17,7 @@ Arrays:
 
   Iterating through array:
     x:= [...] int{1,2,3}
-    for i; v range x{
+    for i, v range x{
         fmt.Printf("At index: %d, value is %d", i, v)
     }
 
@@ -33,8 +33,8 @@ Slices: window on an underlying array
   s1 := arr[1:3]
   s2 := arr[2:5]
 
-  s1 will have a,b
-  s2 will have b,c,d,e
+  s1 will have b,c
+  s2 will have c,d,e
 
  Note: len() cap() = Lenth and capacity
     arr :=[3]string{"a","b","c"}

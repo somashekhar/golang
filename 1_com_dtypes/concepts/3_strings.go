@@ -8,6 +8,7 @@ import (
 
 
 func main(){
+  // All the rules of slices like declaration, assignment and accessing remain here too.!!
   str1 := "Hai Som !"
   str2 := []string{"how is","golang ?"}
  // var int sl = len(str1)
