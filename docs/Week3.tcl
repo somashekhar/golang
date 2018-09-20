@@ -66,7 +66,7 @@ Hash Table:
   Hash function is used to compute the slot for a key
   
 Maps:
-  Implementation of a has Table
+  Implementation of a hash Table
   Ex: 
   1. create map using a make 
   var idMap map[string]int     //string is key type and int is value type
@@ -76,7 +76,7 @@ Maps:
   idMap := map[string] int {"som": 2197}
 
   Note: Accessing map
-  1. Retuns sero if key is not present
+  1. Retuns zero if key is not present
      fmt.Println(idMap["soma"])
   2. Adding a key/value pair
      idMap["shekhar"]= 990

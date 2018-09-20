@@ -37,7 +37,7 @@ func main(){
   //append() function
   sl_6 := make([]int,0,3)
   fmt.Printf("The former sl_6 is %v \n", sl_6)
-  sl_6 = append(sl_6,10)
+  sl_6 = append(sl_6,10)  // adding an element 10 into the slice
   fmt.Printf("The latter sl_6 is %v \n", sl_6)
 
 }
