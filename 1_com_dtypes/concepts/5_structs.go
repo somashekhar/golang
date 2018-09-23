@@ -20,6 +20,8 @@ func main(){
   var pptr *Person
 
   fmt.Printf("The name of person is %s and his number is %d\n",p1.name,p1.phno)
+  var p2 Person = Person{name:"soma",phno:990}
+  fmt.Printf("The name of person is %s and his number is %d\n",p2.name,p2.phno)
 
   pptr =&p1
   pptr.phno = 990220
