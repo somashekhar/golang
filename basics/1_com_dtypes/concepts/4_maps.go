@@ -18,8 +18,8 @@ func main(){
   iMap_2 := map[int]string{1:"S", 2:"B"}
 
   //Acessing the map
-  for str:=range iMap_1{
-	fmt.Printf("The key of map is: %d and the value is %s \n",str,iMap_1[str])
+  for key :=range iMap_1{
+	fmt.Printf("The key of map is: %d and the value is %s \n",key,iMap_1[key])
   }
 
   //Map functions
